@@ -15,10 +15,11 @@ public class FizzBuzz {
 				// 5で割り切れる数値の場合、「Buzz」と表示する
 			} else if (i % 5 == 0) {
 				System.out.println("Buzz");
-				
+
+			} else {
+				// それ以外の数値は、その数値をそのまま表示
+				System.out.println(i);
 			}
-			// それ以外の数値は、その数値をそのまま表示
-			System.out.println(i);
 		}
 	}
 }
